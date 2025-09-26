@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #444444;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FCE5CD;
+    border: 1px;
+}
+hr {
+    background-color: #444444;
+    height: 3.7px;
+    border: 1px solid white;
+}
+img{
+    max-width: 50%;
+    height: 50%;
+}
+.imagem{
+       max-width: 425px;
+           margin: 0 auto;
+            padding: 20px;
+}
+input{
+   background-color: #444444;
+    color: white;
+    border: 3px solid white;
+    padding: 3px 7px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.input_contato_nome,.input_data, .input_contato_email{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    padding:auto ; 
+    cursor: pointer; 
+    border-radius: 50px;
+}
+fieldset{
+    background-color: white;
+    color: black;
+    border: 40px white;
+    padding: auto; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.legend_1 {
+    background-color: white;
+    color: black;
+    border: 40px white;
+    padding: 3px 15px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    
+}
+.botao_enviar{
+    background-color: white;
+    color: #444444;
+    border: 5px #444444 ;
+    padding: 3px 7px; 
+    cursor: pointer; 
+    border-radius: 7px;
+}
+.fieldset_2{
+    background-color: white;
+}
+textarea{
+    color: black;
+    border: auto white;
+    background-color: white;
+    padding: white;
+}

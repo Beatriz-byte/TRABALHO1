@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entre em Contato!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <b>Entre em Contato!</b>  
+        </header>
+        <br>
+        
+        <form method="get">
+            <fieldset class="fieldset_2">
+                <legend class="legend_1">Informe nome completo!</legend>
+                <div> 
+                    <label for="nome" class="legend_1">Nome:</label>
+                    <input type="text" id="nome" name="nome" required class="input_contato_nome"> 
+                </div>
+            </fieldset>
+            
+            <br>
+            
+            <fieldset class="fieldset_2">
+                <legend class="legend_1">Informe email completo!</legend>
+                <div> 
+                    <label for="email" class="legend_1">Email:</label>
+                    <input type="email" id="email" name="email" required class="input_contato_email"> 
+                </div>
+            </fieldset>
+            <br>    
+          
+            <br>
+            <fieldset>
+                <legend class="legend_1">Informe intenção de contato</legend>
+                <input type="radio" id="amigo_antigo" name="relacionamento" value="Reatar contato (velho amigo)">
+                <label for="amigo_antigo">Reatar contato (velho amigo)</label>
+                <br>
+                
+                <input type="radio" id="contratante_novo" name="relacionamento" value="empregador_novo">
+                <label for="contratante_novo">Intenção de contratar-lo</label>
+                <br>
+                
+                <input type="radio" id="ex_chefe" name="relacionamento" value="ex_chefe">
+                <label for="ex_chefe">Reatar contato (Ex Patrão)</label>
+                <br>
+                
+                <input type="radio" id="familiar" name="relacionamento" value="familiar">
+                <label for="familiar">Reatar contato (familiar)</label>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend class="legend_1">Informe quando esta entrando em contato!</legend>
+                <input type="datetime-local" name="data_contato" id="data_contato" required class="input_data"/>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend class="legend_1">Deseja fazer algum comentario? O espaço abaixo disponibiliza 15 linhas!</legend>
+                <textarea name="desc_incidente" id="desc_incidente" rows="15" cols="130" required></textarea>
+            </fieldset>
+            <br>
+            
+            <input type="submit" value="Enviar" class="botao_enviar">
+        </form>
+    </body>
+</html>
