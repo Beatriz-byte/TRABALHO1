@@ -4,68 +4,164 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Currículo Vitae fictício de Henrique da Cruz, desenvolvido para fins acadêmicos. Contém dados pessoais, formação, experiência profissional e formas de contato.">
+  <meta name="description" content="Currículo Vitae fictício de Henrique da Cruz, desenvolvido para fins acadêmicos. Contém dados pessoais, formação, experiência profissional e formas de contato.">
   <meta name="keywords" content="programação, html,">
   <meta name="author" content="Henrique Fortunato">
-    <title>Trabalho - Semirames</title>
-    <link rel="stylesheet" href="/trabalho1/style/style.css">
+  <title>Currículo - Henrique da Cruz</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .perfil {
+      text-align: center;
+    }
+
+    .perfil img {
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 10px 0;
+    }
+
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      text-transform: uppercase;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 3px solid #444;
+      padding-left: 10px;
+      margin: 10px 0;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+  </style>
 </head>
 
 <body>
-       <header class=" header">
-        <nav class="nav">
-            <a href="index.html" class="logo">👨🏽</a>
-            <ul>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        <table>
-            <tr>
-                <td><img src="/trabalho1/imagens/avatar.png" alt="Foto Avatar" width="150" height="125"></td>
-                <td><h1>Henrique da Cruz</h1></td>
-            </tr>
-        </table>
-    </header>
-    <main>
-        <section>
-            <h2>Dados Pessoais</h2>
-            <p>Idade: 21 anos</p>
-            <p>Cidade: São Paulo - SP</p>
-        </section>
-<hr>
-        <section>
-            <h2>Formação Acadêmica</h2>
-            <ul>
-                <li>Desenvolvimento de Software - Faculdade de tecnologia</li>
-                <li>Gerente de projetos - PMI</li>
-            </ul>
-        </section>
-<hr>
-        <section>
-            <h2>Experiência Profissional</h2>
-            <ol>
-                <li>Gerente de Projetos - Neopro indústria</li>
-                <li>Analista administrativo - Neopro indústria</li>
-            </ol>
-        </section>
-<hr>
-        <section>
-            <h2>Informações de Contato</h2>
-            <p>Telefone: <a href="tel:+551199999999">+55 11 99999-9999</a></p>
-            <p>Email: <a href="mailto:henrique@email.com">
-                henrique.fortunato@fatec.com.br</a></p>
-        </section>
-<hr>
-        <section>
-            <h2>Citação Favorita</h2>
-            <blockquote>
-                "Tudo era impossível, mas até que algúem fez"
-            </blockquote>
-        </section>
-<hr>
-  <section>
-    <h2>Pra você que pensa e sente demais</h2>
-    <iframe 
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">👨🏽</a>
+      <ul>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="perfil">
+      <img src="/trabalho1/imagens/avatar.png" alt="Foto Avatar" width="150" height="125">
+      <h1>Henrique da Cruz</h1>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Dados Pessoais</h2>
+      <p><strong>Idade:</strong> 21 anos</p>
+      <p><strong>Cidade:</strong> São Paulo - SP</p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li>Desenvolvimento de Software - Faculdade de tecnologia</li>
+        <li>Gerente de projetos - PMI</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Experiência Profissional</h2>
+      <ol>
+        <li>Gerente de Projetos - Neopro indústria</li>
+        <li>Analista administrativo - Neopro indústria</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Informações de Contato</h2>
+      <p><strong>Telefone:</strong> <a href="tel:+551199999999">+55 11 99999-9999</a></p>
+      <p><strong>Email:</strong> <a href="mailto:henrique@email.com">henrique.fortunato@fatec.com.br</a></p>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Citação Favorita</h2>
+      <blockquote>
+        "Tudo era impossível, mas até que alguém fez"
+      </blockquote>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Pra você que pensa e sente demais</h2>
+      <iframe 
         width="560" 
         height="315" 
         src="https://www.youtube.com/embed/45u2eqABBRk?si=mmVzfojk9lof_d9t" 
@@ -74,13 +170,14 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen>
-    </iframe>
-</section>
-        
-    </main>
-<hr>
-    <footer>
-        <p>&copy; 2025 - Currículo para fins acadêmicos</p>
-    </footer>
+      </iframe>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2025 - Currículo para fins acadêmicos</p>
+  </footer>
 </body>
 </html>
