@@ -6,15 +6,15 @@
 body,html{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.8;
-    color: #444444;
+    color: #000000;
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FCE5CD;
+    background-color: #1da7c6;
     border: 1px;
 }
 hr {
-    background-color: #444444;
+    background-color: #1da7c6;
     height: 3.7px;
     border: 1px solid white;
 }
@@ -28,7 +28,7 @@ img{
             padding: 20px;
 }
 input{
-   background-color: #444444;
+   background-color: #1da7c6;
     color: white;
     border: 3px solid white;
     padding: 3px 7px; 
@@ -62,7 +62,7 @@ fieldset{
 }
 .botao_enviar{
     background-color: white;
-    color: #444444;
+    color: #000000;
     border: 5px #444444 ;
     padding: 3px 7px; 
     cursor: pointer; 
@@ -77,3 +77,38 @@ textarea{
     background-color: white;
     padding: white;
 }
+
+/* LinkedIn */
+.header {
+background: rgb(33, 36, 199);
+padding-inline: 16px;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 48px
+}
+
+.nav-list {
+    display:flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+}
+
+
+
