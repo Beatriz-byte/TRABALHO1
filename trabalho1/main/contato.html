@@ -28,24 +28,61 @@
         
         <form method="get">
             <fieldset class="fieldset_2">
-                <legend class="legend_1">Informe nome completo</legend>
+                <legend class="legend_1">Dados pessoais</legend>
                 <div> 
                     <label for="nome" class="legend_1">Nome:</label>
                     <input type="text" id="nome" name="nome" required class="input_contato_nome"> 
+
+                     <label for="email" class="legend_1">E-mail:</label>
+                    <input type="text" id="email" name="nome" required class="input_contato_email"> 
+
+                     <label for="Idade" class="legend_1">Idade:</label>
+                    <input type="text" id="Idade" name="nome" required class="input_contato_idade"> 
+
+                     <label for="telefone" class="legend_1">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required class="input_contato_telefone"> 
+
+                     <label for="sexo" class="legend_1">sexo</label>
+                    <input type="text" id="sexo" name="sexo" required class="input_contato_sexo"> 
+                     
+                     <label for="estado_civil" class="legend_1">Estado civil:</label>
+                    <input type="text" id="estado_civil" name="estado_civil" required class="input_contato_estadocivil"> 
+
+                     <legend class="legend_1">Data de nascimento</legend>
+                    <input type="datetime-local" name="data_nascimento" id="data_nascimento" required class="input_datanascimento"/>
                 </div>
-            </fieldset>
-            
-            <br>
+            </fieldset>    
+          <fieldset class="fieldset_2">
+                <legend class="legend_1"></legend>
+                <div> 
+                    <label for="CNPJ" class="legend_1">CNPJ:</label>
+                    <input type="text" id="cnpj" name="cnpj" required class="input_contato_cnpj"> 
+
+                     <label for="razão social" class="legend_1">Razão social:</label>
+                    <input type="text" id="razão social" name="razão social" required class="input_contato_razaosocial"> 
+
+                     <label for="ramo de atuação" class="legend_1">Ramo de atuação:</label>
+                    <input type="ramo_atuação" id="ramo_atuação" name="ramo_atuação" required class="input_contato_ramoatuaçao"> 
+                </div>
+            </fieldset>   
             
             <fieldset class="fieldset_2">
-                <legend class="legend_1">Informe email completo</legend>
+                <legend class="legend_1">Endereço</legend>
                 <div> 
-                    <label for="email" class="legend_1">Email:</label>
-                    <input type="email" id="email" name="email" required class="input_contato_email"> 
-                </div>
-            </fieldset>
-            <br>    
-          
+                    <label for="cep" class="legend_1">CEP:</label>
+                    <input type="text" id="cep" name="cep" required class="input_contato_cep"> 
+
+                     <label for="logradouro" class="legend_1">logradouro:</label>
+                    <input type="text" id="logradouro" name="logradouro" required class="input_contato_logradouro"> 
+
+                     <label for="cidade" class="legend_1">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required class="input_contato_cidade"> 
+
+                     <label for="estado" class="legend_1">Estado:</label>
+                    <input type="text" id="estado" name="estado" required class="input_contato_estado"> 
+
+            </fieldset>    
+
             <br>
             <fieldset>
                 <legend class="legend_1">Motivo do contato</legend>
@@ -61,16 +98,6 @@
                 <label for="Contratação">Contratação</label>
                 <br>
                 
-            </fieldset>
-            <br>
-            
-            <fieldset>
-                <legend class="legend_1">Informe quando esta entrando em contato!</legend>
-                <input type="datetime-local" name="data_contato" id="data_contato" required class="input_data"/>
-            </fieldset>
-            <br>
-            
-            <fieldset>
                 <legend class="legend_1">Deseja fazer algum comentario? O espaço abaixo disponibiliza 15 linhas!</legend>
                 <textarea name="desc_incidente" id="desc_incidente" rows="15" cols="130" required></textarea>
             </fieldset>
